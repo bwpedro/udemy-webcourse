@@ -13,6 +13,33 @@ h1{
     padding-top: 10px;
 }
 
+h2{
+    font-weight: normal;
+    margin-top: 40px;
+    font-size: 20px;
+    border-bottom: 3px #A91717 solid;
+    width: 102px;
+}
+
+h3{
+    width: 600px;
+}
+
+h4{
+    font-weight: normal;
+    font-size: 25px;
+}
+
+h3 a{
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+h3 a:hover{
+    color: #1167a8;
+}
+
 .clear{
     clear: both;
 }
@@ -25,6 +52,55 @@ h1{
 
 .no-border{
     border: none !important;
+}
+
+.article-side-img{
+    float: left;
+    width: 120px;
+    margin-right:10px;
+}
+
+.watch-listen-link{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.watch-listen-link:hover{
+    color: #1167a8;
+}
+
+.clock{
+    width: 16px;
+    position: relative;
+    top: 3px;
+    right: 2px;
+    padding-right: 2px;
+}
+
+.date{
+    padding-right: 10px;
+    color: #5a5a5a;
+    font-size: 14px;
+}
+
+.side-article{
+    float:right;
+    width: 379px;
+    position: relative;
+    top: -15px;
+}
+
+.teclink{
+    text-decoration: none;
+    color: #A91717 !important;
+    border-left: 1px #CCCCCC solid;
+    padding-left: 10px !important;
+    font-size: 14px;
+}
+
+.teclink:hover{
+    color: #1167a8 !important;
 }
 
 #topbar{
@@ -119,4 +195,52 @@ h1{
     position: relative;
     top: 5px;
     right: 10px;
+}
+
+#page-container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#article-summary{
+    color: #5a5a5a;
+    width: 240px;
+    font-size: 14px;
+    float: left;
+}
+
+#article-summary a:hover{
+    color: #1167a8 !important;
+}
+
+#article-container{
+    float: left;
+    width: 650px;
+    border-right: 1px #CCCCCC solid;
+    padding-right: 20px;
+}
+
+#article-image{
+    width: 400px;
+    float: right;
+}
+
+#article-hr{
+    border-top: 1px #A91717 solid;
+    width: 50px;
+    float: left;
+}
+
+#article-summary a{
+    text-decoration: none;
+    color: black;
+    padding-right: 15px;
+}
+
+#watch-listen{
+    margin-left: 20px;
+    width: 509px;
+    float:right;
+    position: relative;
+    top: -35px;
 }
