@@ -1,0 +1,33 @@
+.red{
+    color: #B82202;
+}
+
+.large{
+    font-size: 200%;
+}
+
+#green{
+    color: #11A811;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+#first-section{
+    color: blue;
+    background-color: #E74CA1;
+    width: 200px;
+    position: relative;
+    left: 100px;
+    top: 100px;
+    z-index: 1;
+}
+
+#second-section{
+    background-color: #ECEF16;
+    width: 200px;
+    position: relative;
+    z-index: 2;
+    opacity: 0.5;
+}
